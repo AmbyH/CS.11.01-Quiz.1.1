@@ -7,10 +7,11 @@ public class Main {
             String favouriteFood; //declare favouriteFood
             System.out.println("Please enter your age:"); //print to ask for user input
             age = scanner.nextInt(); //scan for next integer
+            scanner.nextLine();
             System.out.println("Please enter you first name:"); //print to ask for user input
-            firstName = scanner.next(); //scan for next
+            firstName = scanner.nextLine(); //scan for next
             System.out.println("What is your favourite food?"); //print to ask for user input
-            favouriteFood = scanner.next(); //scan for next
+            favouriteFood = scanner.nextLine(); //scan for next
             //print final statement
             System.out.println("First name: " + firstName + '\n' + '\n' + "Age: " + age + '\n' + '\n' + "Favourite food: " + favouriteFood);
         }
